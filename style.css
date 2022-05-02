@@ -1,0 +1,124 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: sans-serif;
+    max-width: 1024px;
+}
+
+/*Navbar*/
+header {
+    background-color:orange;
+    border-bottom: 2px solid black;
+    display: flex;
+    
+}
+
+#Uppercase {
+    text-transform: uppercase;
+}
+
+header >nav > ul {
+    background-color: lightblue;
+    color: black;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+header > nav > ul > li,     header > a,     header > h1  {
+    font-style: normal;
+    color: #333;
+    padding: 12px 20px;
+    font-size: 22px;
+}
+header > a {
+    margin-left:auto;
+    background-color: lightblue;
+}
+
+article{
+    display: inline-block;
+}
+
+
+.flexboxWrapper {
+    display: flex;
+    align-items: stretch;
+    margin: 0 auto;
+    
+}
+section {
+    height: 76vh;
+    background-color: yellow;
+    padding: 5%;
+    margin: auto;
+    vertical-align:middle;
+}
+section > h2 {
+    width: 30%;
+    background-color: aquamarine;
+
+}
+section > p {
+    margin:  3% 0%;
+    width: 100%;
+    height: 20%;
+    background-color: aquamarine;
+}
+
+section > h3 {
+    position: absolute;
+    left: 33%;
+    top: 37%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+form{
+    background-color: olivedrab;
+    border-radius: 15%;
+    height: 20%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+}
+
+input[type=submit]{
+    background-color: green;
+    border-radius: 15%;
+}
+
+input[type=reset]{
+    background-color: red;
+    border-radius: 15%;
+}
+
+input[type=text]{
+    background-color: black;
+    border-radius: 15%;
+}
+
+
+aside {
+    width: 40%;
+    background-color: olivedrab;
+    padding: 3%;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 2% 0%;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
